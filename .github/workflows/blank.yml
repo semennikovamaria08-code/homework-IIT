@@ -1,0 +1,12 @@
+git --version
+mkdir homework-iit
+cd homework-iit
+git init
+git add report.md
+git commit -m "Добавлен начальный отчет по практике"
+git checkout -b report-update
+git checkout main
+git merge report-update
+git add report.md
+git commit -m "Завершен отчет по практической работе №12"
+git push origin main
